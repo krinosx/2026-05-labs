@@ -8,5 +8,7 @@ redis:
 rng: {}
 webui:
   replicaCount: 2
+  service:
+    type: NodePort
 worker:
   service: false
